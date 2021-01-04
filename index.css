@@ -1,0 +1,128 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1523612192437-66de9804ac3c?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjY3OTUzfQ);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* z-index: 0; */
+    position: absolute; 
+    /* margin-right: 5%; */
+    width: 100%;
+    height: 100%;
+}
+ div {
+    display: block;
+} 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+/* .card {
+    background: white;
+    width: 600px;
+    margin-top: 60px;
+    border-radius: 6.5px;
+    z-index: 2;
+}
+
+.text-center {
+    text-align: center;
+}
+.card .logo {
+    margin: -60px auto 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+.logo {
+    background-color: initial;
+}
+.logo {
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+} */
+
+.card {
+    background: white;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 28%;
+    border-radius: 6.5px;
+    z-index: 2;
+  }
+  
+  .card .logo {
+    margin: -50px auto 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .card .logo .upload {
+    width: 120px;
+    height: 120px;
+  }
+  
+  
+  .subtitle-edit:hover:before {
+    content: "\f044";
+    font-family: 'Font Awesome 5 Free' !important;
+    font-weight: 900;
+    position: absolute;
+    right: -19px;
+    bottom: 30px;
+    font-size: 16px;
+    color: #2fa5cc;
+  }
+  
+  .logo-edit:hover:before {
+    content: "\f044";
+    font-family: 'Font Awesome 5 Free' !important;
+    font-weight: 900;
+    position: absolute;
+    top: 38px;
+    right: 36px;
+    font-size: 33px;
+    color: #2fa5cc;
+    bottom: 62px;
+  }
+  
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .autocomplete-suggestions {
+    bottom: 125px !important;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgba(65, 146, 160, 0.712);
+    color: black;
+  }
+  
+  
+  .next {
+    background-color: #c1eaf1;
+    color: rgb(26, 27, 27);
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
